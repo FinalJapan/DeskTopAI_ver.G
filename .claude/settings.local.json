@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(py --version)",
+      "Bash(python3:*)",
+      "Bash(where python)",
+      "Bash(/c/Users/kanat/AppData/Local/Microsoft/WindowsApps/python.exe --version)",
+      "Bash(powershell:*)",
+      "Bash(cmd /c \"python --version && python GUI_Gemini\\gui.py\")",
+      "Bash(dir)",
+      "Bash(dir:*)",
+      "Bash(pip install:*)",
+      "Bash(py:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
