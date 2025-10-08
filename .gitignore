@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+venv_ai/
+env/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Memory/Cache files
+*_memory.json
+*.json.bak
+
+# Logs
+*.log
+
+# Large files
+*.dll
+*.pyd
+*.so.*
+*.dylib
+
+# Site-packages (should be recreated via requirements.txt)
+GUI_Gemini/venv_ai/
+GUI/venv/
