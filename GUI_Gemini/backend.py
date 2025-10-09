@@ -2,7 +2,7 @@
 backend.py
 -----------
 GUI から使う “黒子” モジュール。
-既存 gpt.py（音声録音 → Whisper → GPT → 合成 → 再生）を
+既存 gpt.py（音声録音 → Whisper → Gemini → 合成 → 再生）を
 AssistantBackend クラスでラップするだけで、ロジックは触らない。
 """
 
